@@ -4,7 +4,7 @@ ejecios #2
 
 # estructural.py
 
-# Ejercicio Estructural: Encontrar el Valor Máximo en una Lista
+Ejercicio Estructural: Encontrar el Valor Máximo en una Lista
 
 El objetivo es encontrar el valor máximo dentro de una lista de números.
 
