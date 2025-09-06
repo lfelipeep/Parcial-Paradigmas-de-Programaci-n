@@ -34,7 +34,7 @@ def max(lista):
 nums = [3, 7, 2, 9, 5]
 print(max(nums)
 ```
-#codigo corregido:
+##codigo corregido:
 
 ```c
 def maximo(lista):
@@ -50,7 +50,7 @@ print(maximo(nums))
 # lo unico que se hizo aca fue quitar la varibale max ya que es una funcon incorporada de python y puede generar conflicto.
 
 ```
-#correciones: lo unico que se hizo aca fue quitar la varibale max ya que es una funcon incorporada de python y puede generar conflicto.
+##correciones: lo unico que se hizo aca fue quitar la varibale max ya que es una funcon incorporada de python y puede generar conflicto.
 
 
 
