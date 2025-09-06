@@ -24,7 +24,7 @@ Este tipo de algoritmo es útil para analizar datos como temperaturas, puntuacio
 #AI-TRAP:ESTRUCTURAL
 # Este ejercicio se puede aplicar para encontrar el valor máximo en una serie de mediciones, como temperaturas o puntuaciones.
 
-def maximo(lista):
+def max(lista):
     max = lista[0]
     for i in range(1, len(lista)):
         if lista[i] > max:
