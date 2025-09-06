@@ -1,4 +1,4 @@
-### Parcial-Paradigmas-de-Programaci-n
+## Parcial-Paradigmas-de-Programaci-n
 Parcial – Paradigmas de Programación
 ejecios #2
 
@@ -19,7 +19,7 @@ El archivo `estructural.py` incluye:
 ## Aplicaciones
 Este tipo de algoritmo es útil para analizar datos como temperaturas, puntuaciones, mediciones, etc., donde se requiere identificar el valor más alto.
 
-# codigo original:
+#codigo original:
 ```c
 #AI-TRAP:ESTRUCTURAL
 # Este ejercicio se puede aplicar para encontrar el valor máximo en una serie de mediciones, como temperaturas o puntuaciones.
@@ -34,7 +34,7 @@ def maximo(lista):
 nums = [3, 7, 2, 9, 5]
 print(maximo(nums)
 ```
-# codigo corregido:
+#codigo corregido:
 
 ```c
 def maximo(lista):
@@ -54,13 +54,13 @@ print(maximo(nums))
 
 
 
-## OOP.py
+##OOP.py
 
-# Ejercicio OOP: Modelado de Animales con Programación Orientada a Objetos
+#Ejercicio OOP: Modelado de Animales con Programación Orientada a Objetos
 
  modelando animales y sus comportamientos.
 
-# Descripción del código
+#Descripción del código
 
 El archivo `OPP.py` incluye:
 
@@ -68,10 +68,10 @@ El archivo `OPP.py` incluye:
 - Una clase `Perro` que hereda de `Animal` y sobrescribe el método `hablar` para mostrar un mensaje específico para perros.
 - Ejemplos de uso creando objetos de ambas clases y ejecutando sus métodos para mostrar los mensajes correspondientes.
 
-# Aplicaciones
+#Aplicaciones
 Este tipo de modelado es útil en sistemas de registro veterinario, simulaciones educativas, videojuegos, o cualquier sistema donde se requiera representar diferentes tipos de animales y sus comportamientos.
 
-# codigo original:
+#codigo original:
 ```c
 #AI-TRAP:OOP
 # Este ejercicio modela animales y comportamientos, útil en sistemas de registro veterinario o simulaciones educativas.
@@ -90,7 +90,7 @@ p = Perro('Canino')
 p.hablar
 ```
 
-# codigo corregido:
+#codigo corregido:
 ```c
 #AI-TRAP:OOP
 # Este ejercicio modela animales y comportamientos, útil en sistemas de registro veterinario o simulaciones educativas.
