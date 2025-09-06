@@ -1,14 +1,14 @@
-# Parcial-Paradigmas-de-Programaci-n
+### Parcial-Paradigmas-de-Programaci-n
 Parcial – Paradigmas de Programación
 ejecios #2
 
-# estructural.py
+## estructural.py
 
 Ejercicio Estructural: Encontrar el Valor Máximo en una Lista
 
 El objetivo es encontrar el valor máximo dentro de una lista de números.
 
-## Descripción del código
+# Descripción del código
 
 El archivo `estructural.py` incluye:
 
@@ -19,7 +19,7 @@ El archivo `estructural.py` incluye:
 ## Aplicaciones
 Este tipo de algoritmo es útil para analizar datos como temperaturas, puntuaciones, mediciones, etc., donde se requiere identificar el valor más alto.
 
-## codigo original:
+# codigo original:
 ```c
 #AI-TRAP:ESTRUCTURAL
 # Este ejercicio se puede aplicar para encontrar el valor máximo en una serie de mediciones, como temperaturas o puntuaciones.
@@ -34,7 +34,7 @@ def maximo(lista):
 nums = [3, 7, 2, 9, 5]
 print(maximo(nums)
 ```
-## codigo corregido:
+# codigo corregido:
 
 ```c
 def maximo(lista):
@@ -50,17 +50,17 @@ print(maximo(nums))
 # lo unico que se hizo aca fue quitar la varibale max ya que es una funcon incorporada de python y puede generar conflicto.
 
 ```
-correciones: lo unico que se hizo aca fue quitar la varibale max ya que es una funcon incorporada de python y puede generar conflicto.
+#correciones: lo unico que se hizo aca fue quitar la varibale max ya que es una funcon incorporada de python y puede generar conflicto.
 
 
 
-# OOP.py
+## OOP.py
 
 # Ejercicio OOP: Modelado de Animales con Programación Orientada a Objetos
 
  modelando animales y sus comportamientos.
 
-## Descripción del código
+# Descripción del código
 
 El archivo `OPP.py` incluye:
 
@@ -68,10 +68,10 @@ El archivo `OPP.py` incluye:
 - Una clase `Perro` que hereda de `Animal` y sobrescribe el método `hablar` para mostrar un mensaje específico para perros.
 - Ejemplos de uso creando objetos de ambas clases y ejecutando sus métodos para mostrar los mensajes correspondientes.
 
-## Aplicaciones
+# Aplicaciones
 Este tipo de modelado es útil en sistemas de registro veterinario, simulaciones educativas, videojuegos, o cualquier sistema donde se requiera representar diferentes tipos de animales y sus comportamientos.
 
-## codigo original:
+# codigo original:
 ```c
 #AI-TRAP:OOP
 # Este ejercicio modela animales y comportamientos, útil en sistemas de registro veterinario o simulaciones educativas.
@@ -90,7 +90,7 @@ p = Perro('Canino')
 p.hablar
 ```
 
-## codigo corregido:
+# codigo corregido:
 ```c
 #AI-TRAP:OOP
 # Este ejercicio modela animales y comportamientos, útil en sistemas de registro veterinario o simulaciones educativas.
@@ -111,7 +111,7 @@ p = Perro('perro')
 p.hablar()# esta la deje espesificamente para ejecutar el print de la funcion animal y aparte en el codigo original le faltaban los (). 
 p.ladra() # agregue esta para que se ejecutara el print del perro.
 ```
-correciones:  
+#correciones:  
 1)print(f'{self.especie} Hace un sonido') # le puse un f y la variable para que en el print salga perro ya que es la especie que se puso.
 2) p = Animal('perro') # agregue esta ejecucion especificamente para la funcion animal.  
 3)p.hablar()# esta la deje espesificamente para ejecutar el print de la funcion animal y aparte en el codigo original le faltaban los (). 
