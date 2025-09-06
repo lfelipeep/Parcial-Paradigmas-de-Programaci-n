@@ -32,7 +32,7 @@ def max(lista):
     return max
 
 nums = [3, 7, 2, 9, 5]
-print(maximo(nums)
+print(max(nums)
 ```
 #codigo corregido:
 
